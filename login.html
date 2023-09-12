@@ -27,13 +27,14 @@
             </div>
 
             <form class="login" action="home.html" method="get" name="form" onsubmit="return validated()">
-                <div class="font" Email or Phone></div>
-                <input autocomplete="off" type="text" name="email" placeholder="Email or Phone">
-                <div id="email_error">Please fill up your <br>Email or Phone</div><br>
+                <input type="email" autocomplete="off" type="email" name="email" placeholder="Email">
+                <div id="email_error">Please fill up Email</div><br>
                 <input type="password" name="password" placeholder="Password">
-                <div id="password_error">Please fill up your <br>Password</div>
+                <div id="password_error">Please fill up Password</div>
                 <br><br>
                 <button class="btn" type="submit">Login</button>
+                <div id="errorContainer"></div>
+
             </form>
         </div>
         <br><br><br><br>
