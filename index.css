@@ -1,98 +1,96 @@
 .navbar {
-  background-color: #9ED2BE;
-  overflow: hidden;
-  display: flex;
-  position: fixed;
-  width: 100%;
-  margin: 0 auto 0;
-  padding-top: 0px;
-}
-
-.navbar a {
-  float: left;
-  color: #fff;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.navbar a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-.navbar a.active {
-  background-color: #647387;
-  color: rgb(13, 59, 37);
-}
-
-.font{
-  color: rgb(13, 13, 179);
+    background-color: #9ED2BE;
+    overflow: hidden;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    margin: 0 auto 0;
+    padding-top: 0px;
+  }
   
-}
-#email_error{
-  color:rgb(242, 14, 22);
-}
-
-#password_error{
-  color:rgb(242, 14, 22);
-}
-
-.title{
-  width: 400px;
-  font-size: 35px;
-  font-weight: 600;
-  text-align: center;
-  line-height: 100px;
-  color: #fff;
-  border-radius: 15px 15px 0 0;
-  background: linear-gradient(-135deg, #647387, #9ED2BE);
-}
-
-.login_form{
-  width: 400px;
-  padding:0px;
-  padding-bottom: 50px;
-  border-radius: 15px;
-  box-shadow: 0px 15px 20px rgba(73, 71, 96, 0.945);
-  background: linear-gradient(90deg, #647387, #9ED2BE);
-}
+  .navbar a {
+    float: left;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
   
-.btn{
-  color: #fff;
-  border: none;
-  padding-left: 0;
-  margin-top: -10px;
-  font-size: 20px;
-  font-weight: 500;
-  background:  #647387;
-}
-
-.clock {
-  width: 280px;
-  height: 300px;
-  border: 2px solid black;
-  border-radius: 50%;
-  margin: 0 auto;
-  background-image: url(img/clock.jpg) ;
-  background-repeat: no-repeat;
-  background-position: cover;
-}
-.WORDS{
-  color:aliceblue; 
-  text-align:center;
-}
-
-
-.footer {
-  background-color:#9ED2BE;
-  bottom: 50px;
-  margin-top: 100px;
-  width: 100%;
-  padding-top: 20px;
-  padding-bottom: 10px;
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
   
-}
-
-
+  .navbar a.active {
+    background-color: #647387;
+    color: rgb(13, 59, 37);
+  }
+  
+  .font{
+    color: rgb(13, 13, 179);
+    
+  }
+  #email_error{
+    color:rgb(242, 14, 22);
+  }
+  
+  #password_error{
+    color:rgb(242, 14, 22);
+  }
+  
+  .title{
+    width: 400px;
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 100px;
+    color: #fff;
+    border-radius: 15px 15px 0 0;
+    background: linear-gradient(-135deg, #647387, #9ED2BE);
+  }
+  
+  .login_form{
+    width: 400px;
+    padding:0px;
+    padding-bottom: 50px;
+    border-radius: 15px;
+    box-shadow: 0px 15px 20px rgba(73, 71, 96, 0.945);
+    background: linear-gradient(90deg, #647387, #9ED2BE);
+  }
+    
+  .btn{
+    color: #fff;
+    border: none;
+    padding-left: 0;
+    margin-top: -10px;
+    font-size: 20px;
+    font-weight: 500;
+    background:  #647387;
+  }
+  
+  .clock {
+    width: 280px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin: 0 auto;
+    background-image: url(img/clock.jpg) ;
+    background-repeat: no-repeat;
+    background-position: cover;
+  }
+  .WORDS{
+    color:aliceblue; 
+    text-align:center;
+  }
+  
+  
+  .footer {
+    background-color:#9ED2BE;
+    bottom: 50px;
+    margin-top: 100px;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    
+  }

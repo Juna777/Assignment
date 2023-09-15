@@ -1,0 +1,80 @@
+body{
+  background: linear-gradient(-135deg, rgba(74, 74, 218, 0.816), rgb(132, 204, 187));
+}
+
+
+#game {
+  background-color: white;
+    padding: 2px;
+    border: 5px solid #647387;
+    border-radius: 15px;
+    display: inline-block;
+}
+
+#rock {
+
+    width: 30%;
+    height: 30%;
+
+
+}
+
+#paper {
+  width: 30%;
+  height: 30%;
+
+}
+
+#scissors{
+
+  width: 15%;
+  height: 15%;
+
+
+}
+
+#result {
+    margin: 10px 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.history {
+    margin: 10px 0;
+    text-align: left;
+}
+
+#btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color:black;
+    border: 10px;
+    border-radius: 15px;
+}
+
+h5{
+  text-align: left;
+  color: aquamarine;
+}
+
+#comscore{
+  background-color: rgba(74, 74, 218, 0.816);
+  width: 30%;
+  border: 10px;
+  border-radius: 5px;
+
+  
+  
+}
+
+#playscore{
+  background-color: rgba(74, 74, 218, 0.816);
+  width: 30%;
+  border: 10px;
+  border-radius: 5px;
+}
+#Instruction{
+  text-align: left;
+  margin-left: 20%;
+  margin-right: 20%;
+}
